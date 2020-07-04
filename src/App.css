@@ -15,14 +15,35 @@ body{
     background-size: cover;
     background-position: bottom;
     transition: 0.4s ease-out;
-    /* width: 25%; */
-    margin-left: auto;
-    margin-right: auto;
+   
 }
-.container.cold{
+.container.Sunny,
+.container.Clouds,
+.container.Clear{
+    background-image: url("./assets/warm.jpg");
+    
+}
+.container.Cold,
+.container.Snow{
     background-image: url("./assets/cold.jpg");
     
 }
+.container.Rain{
+    background-image: url("./assets/rainy.jpg");
+}
+.container.Smoke{
+    background-image: url("./assets/smoke.jpg");
+}
+.container.Foggy,
+.container.Haze{
+    background-image: url("./assets/haze.jpg");
+}
+.container.Thundersnow,
+.container.Thunderstorm,
+.container.Typhoons{
+    background-image: url("./assets/thunder.jpg");
+}
+
 main{
     width: 100%;
     min-height: 100vh;
